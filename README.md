@@ -6,7 +6,7 @@ moodlio is an app that allows users to browse movies from the [The Movie Databas
 
 A visual mockup of our app can be found at https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1
 
-### User Stories (what it will be able to do hopefully)
+### User Stories
 - [x] User sees an app icon on the home screen and a styled launch screen.
 - [x] User is prompted with option to login, sign up, or continue as a guest
 - [x] User is prompted with option to choose their mood
@@ -15,7 +15,7 @@ A visual mockup of our app can be found at https://www.figma.com/file/OIC5C8HWft
 - [x] User can tap a poster in the collection view to see a detail screen of that movie.
 - [x] In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
-### App Walkthrough GIF Draft
+### App Walkthrough GIF
 
 # Guest User
 <img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/guest.gif" width=250><br>
