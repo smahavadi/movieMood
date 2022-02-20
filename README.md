@@ -4,7 +4,9 @@
 moolio is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#) based on their mood.
 ---
 
-A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1)
+A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1)<br><br>
+*Our logo:*<br> 
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/Assets.xcassets/logo.png" width=250><br>
 
 ## App Feature Breakdown
 - [x] User sees an app icon on the home screen and a styled launch screen.
@@ -18,13 +20,13 @@ A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/
 ## App Walkthrough GIF
 
 ### *Guest User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/guest.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/guest-trailer.gif" width=250><br>
 
 ### *Sign Up User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/sign up.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/sign up-genre.gif" width=250><br>
 
 ### *Login User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/login.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/login-mood.gif" width=250><br>
 
 
 ## Detailed Project Description
@@ -47,4 +49,4 @@ For someone who logs in, the app:
 Once the user reaches the movies board, they can view a collection of movie posters. They can click on a poster, and the backdrop of the movie, the name, and the synopsis are displayed along with buttons to change the genre or mood that they are currently in. The user can choose to click on the backdrop to display a trailer of the movie (currently a work in progress). The "change genre" button routes the user back to the screen where they can customize the genres that show up based on their moods. The "change mood" button routes the user back to the screen that allows the user to pick a mood.
 
 ## Notes about Implementation and Further Development
-Our goal is to implement all functionalities that are currently in progress to create the optimum app that chooses a selection of movies based on your mood. In the future, we would also like to host movies to allow the user to watch the movies they select within the app as well. We currently only have 3 main moods (happy, sad, stressed) but we would also like to implement more moods like angry, excited, or anxious. We plan on implementing a machine learning AI, much like what can be found in streaming services liek Netflix, in order to tailor the app towards the current user.
+Our goal is to implement all functionalities that are currently in progress to create the optimum app that chooses a selection of movies based on your mood. In the future, we would also like to host movies to allow the user to watch the movies they select within the app as well. We currently only have 3 main moods (happy, sad, stressed) but we would also like to implement more moods like angry, excited, or anxious. We plan on implementing a machine learning AI, much like what can be found in streaming services like Netflix in order to tailor the app towards the current user, make it more appealing and easy to use, and adding a community interface that allows people to share recommendations within a group.
