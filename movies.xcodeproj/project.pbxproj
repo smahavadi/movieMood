@@ -22,6 +22,7 @@
 		E9AB4DA627C1E2F0000D1464 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4DA527C1E2F0000D1464 /* MovieGridViewController.swift */; };
 		E9AB4DA827C1E774000D1464 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4DA727C1E774000D1464 /* MovieGridCell.swift */; };
 		E9AB4DAA27C20161000D1464 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4DA927C20161000D1464 /* MovieDetailsViewController.swift */; };
+		E9AB4DAC27C215AD000D1464 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB4DAB27C215AD000D1464 /* TrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		E9AB4DA527C1E2F0000D1464 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		E9AB4DA727C1E774000D1464 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		E9AB4DA927C20161000D1464 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		E9AB4DAB27C215AD000D1464 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		FAF9E7D620913CD089A28C4F /* Pods-moviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviesTests.debug.xcconfig"; path = "Target Support Files/Pods-moviesTests/Pods-moviesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				E9AB4D7E27C173A2000D1464 /* LaunchScreen.storyboard */,
 				E9AB4D8127C173A2000D1464 /* Info.plist */,
 				E9AB4DA927C20161000D1464 /* MovieDetailsViewController.swift */,
+				E9AB4DAB27C215AD000D1464 /* TrailerViewController.swift */,
 			);
 			path = movies;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			files = (
 				E9AB4D7827C1739F000D1464 /* DropDownViewController.swift in Sources */,
 				E9AB4DA627C1E2F0000D1464 /* MovieGridViewController.swift in Sources */,
+				E9AB4DAC27C215AD000D1464 /* TrailerViewController.swift in Sources */,
 				E9AB4DAA27C20161000D1464 /* MovieDetailsViewController.swift in Sources */,
 				E9AB4DA827C1E774000D1464 /* MovieGridCell.swift in Sources */,
 				E9AB4D7427C1739F000D1464 /* AppDelegate.swift in Sources */,

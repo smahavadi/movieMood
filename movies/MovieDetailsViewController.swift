@@ -40,14 +40,30 @@ class MovieDetailsViewController: UIViewController {
     
     
 
-    /*
-    // MARK: - Navigation
 
+    // MARK: - Navigation
+/*
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
-    }
-    */
+        let detailsViewController = segue.destination as! TrailerViewController
+        detailsViewController.movieId = movie["id"] as? String
+        print(detailsViewController.movieId)
+    }*/
+    
+    @IBAction func goToTrailer(_ sender: Any) {
+        //add code here
+        //let location = sender.location(in: view)
+        // The didTap: method will be defined in Step 3 below.
+        let tapGestureRecognizer = UITapGestureRecognizer()
 
+        // Optionally set the number of required taps, e.g., 2 for a double click
+        tapGestureRecognizer.numberOfTapsRequired = 1
+
+        // Attach it to a view of your choice. If it's a UIImageView, remember to enable user interaction
+        posterImage.isUserInteractionEnabled = true
+        posterImage.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
 }
