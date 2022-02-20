@@ -6,7 +6,7 @@ moolio is an app that allows users to browse movies from the [The Movie Database
 
 A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1)
 
-## User Stories
+## App Feature Breakdown
 - [x] User sees an app icon on the home screen and a styled launch screen.
 - [x] User is prompted with option to login, sign up, or continue as a guest
 - [x] User is prompted with option to choose their mood
