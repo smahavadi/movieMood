@@ -78,18 +78,28 @@
                                     <segue destination="hMY-us-3Lp" kind="presentation" id="Vtj-nF-GON"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emoji" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-vi-wJJ">
+                                <rect key="frame" x="-93" y="262" width="600" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="72F-hn-Os8"/>
+                                    <constraint firstAttribute="height" constant="303" id="A4P-ye-5uW"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dZN-OH-KoY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="dZN-OH-KoY" firstAttribute="bottom" secondItem="YPA-Hx-ea3" secondAttribute="bottom" constant="80" id="0rf-zV-UFs"/>
                             <constraint firstItem="gKj-4k-Ed7" firstAttribute="top" secondItem="dZN-OH-KoY" secondAttribute="top" constant="50" id="2Sa-8g-emS"/>
+                            <constraint firstItem="S7n-vi-wJJ" firstAttribute="top" secondItem="t5f-Ld-NXP" secondAttribute="bottom" constant="43" id="9J7-jM-h0B"/>
                             <constraint firstItem="t5f-Ld-NXP" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="Lg7-TF-g3l"/>
                             <constraint firstItem="YPA-Hx-ea3" firstAttribute="top" secondItem="CqW-La-yRn" secondAttribute="bottom" constant="15" id="P4N-XT-eIJ"/>
                             <constraint firstItem="YPA-Hx-ea3" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="T4x-zJ-NZs"/>
                             <constraint firstItem="UoP-vQ-2gM" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="YiN-ba-swk"/>
                             <constraint firstItem="t5f-Ld-NXP" firstAttribute="top" secondItem="gKj-4k-Ed7" secondAttribute="bottom" constant="50" id="gPq-1D-RXx"/>
+                            <constraint firstItem="UoP-vQ-2gM" firstAttribute="top" secondItem="S7n-vi-wJJ" secondAttribute="bottom" constant="28" id="j65-bp-Wf4"/>
                             <constraint firstItem="CqW-La-yRn" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="lMP-Ka-d0Y"/>
+                            <constraint firstItem="S7n-vi-wJJ" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="mRV-E0-IyI"/>
                             <constraint firstItem="gKj-4k-Ed7" firstAttribute="centerX" secondItem="4UY-JU-4Xb" secondAttribute="centerX" id="pjG-na-BE3"/>
                             <constraint firstItem="CqW-La-yRn" firstAttribute="top" secondItem="UoP-vQ-2gM" secondAttribute="bottom" constant="15" id="qxc-sy-syt"/>
                         </constraints>
@@ -97,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="biQ-vo-SM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-346" y="86"/>
+            <point key="canvasLocation" x="-346.37681159420293" y="85.714285714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cmB-3Z-J41">
@@ -311,6 +321,7 @@
                             <constraint firstItem="pVb-uU-XHa" firstAttribute="centerX" secondItem="sqb-mO-CkU" secondAttribute="centerX" id="vit-mg-Q2c"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="O4F-yL-v6j"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xaJ-Yx-lB4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -558,7 +569,7 @@
                                     </attributedString>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="IzS-Gb-OCo" kind="show" id="wb8-0W-Xkz"/>
+                                    <segue destination="IzN-T0-HfL" kind="show" id="2Ip-CK-khz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZ7-vy-Kf6">
@@ -618,9 +629,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="jFY-Za-n2O"/>
+        <segue reference="2Ip-CK-khz"/>
         <segue reference="Vtj-nF-GON"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="emoji" width="600" height="600"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
