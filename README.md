@@ -17,7 +17,7 @@ A visual mockup of our app can be found at https://www.figma.com/file/OIC5C8HWft
 
 ### App Walkthrough GIF Draft
 
-<img src="https://user-images.githubusercontent.com/61363761/154830133-c89aa75d-d110-411a-a65e-e49b96722479.mov" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/draft2.gif" width=250><br>
 
 
 ### Notes About Project
