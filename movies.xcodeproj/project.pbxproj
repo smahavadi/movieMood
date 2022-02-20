@@ -263,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9AB4D6B27C1739F000D1464 /* Build configuration list for PBXProject "movies" */;
+			buildConfigurationList = E9AB4D6B27C1739F000D1464 /* Build configuration list for PBXProject "moolio" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -731,7 +731,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9AB4D6B27C1739F000D1464 /* Build configuration list for PBXProject "movies" */ = {
+		E9AB4D6B27C1739F000D1464 /* Build configuration list for PBXProject "moolio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9AB4D9827C173A2000D1464 /* Debug */,
