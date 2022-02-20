@@ -4,7 +4,7 @@
 moodlio is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#) based on their mood.
 ---
 
-A visual mockup of our app can be found at https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1
+A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1)
 
 ## User Stories
 - [x] User sees an app icon on the home screen and a styled launch screen.
