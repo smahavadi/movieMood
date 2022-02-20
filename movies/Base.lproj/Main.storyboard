@@ -78,7 +78,7 @@
                                     <segue destination="hMY-us-3Lp" kind="presentation" id="Vtj-nF-GON"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="emoji" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-vi-wJJ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-vi-wJJ">
                                 <rect key="frame" x="-93" y="262" width="600" height="303"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="600" id="72F-hn-Os8"/>
@@ -633,7 +633,7 @@
         <segue reference="Vtj-nF-GON"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="emoji" width="600" height="600"/>
+        <image name="main" width="680" height="600"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
