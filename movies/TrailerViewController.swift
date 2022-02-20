@@ -23,7 +23,7 @@ class TrailerViewController: UIViewController, WKUIDelegate {
         super.viewDidLoad()
         let api = URL(string: "https://developers.themoviedb.org/3/movie/\(String(describing: movieId))/videos/api_key")
         let key = URLRequest(url: api!)
-        let myURL = URL(string: "https://www.youtube.com/watch?v=\(key)")
+        let myURL = URL(string: "https://www.youtube.com/") //watch?v=\(key)")
         //print(movieId)
         //print(myURL as Any)
         let myRequest = URLRequest(url: myURL!)
