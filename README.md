@@ -1,7 +1,7 @@
 
-# *moodlio*
+# *moolio*
 
-moodlio is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#) based on their mood.
+moolio is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#) based on their mood.
 ---
 
 A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/OIC5C8HWft3KZ7HMaEPUnS/movie?node-id=0%3A1)
