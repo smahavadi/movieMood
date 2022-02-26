@@ -20,13 +20,13 @@ A visual mockup of our app can be found at [Mock Up](https://www.figma.com/file/
 ## App Walkthrough GIF
 
 ### *Guest User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/guest-trailer.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS, videos, presentations/guest-trailer.gif" width=250><br>
 
 ### *Sign Up User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/sign up-genre.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS, videos, presentations/sign up-genre.gif" width=250><br>
 
 ### *Login User*
-<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS/login-mood.gif" width=250><br>
+<img src="https://github.com/smahavadi/movieMood/blob/main/movies/GIFS, videos, presentations/login-mood.gif" width=250><br>
 
 
 ## Detailed Project Description
